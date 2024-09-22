@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build Backend Image
-      - run: echo "Hello, World!"
+        run: echo "Hello, World!"
