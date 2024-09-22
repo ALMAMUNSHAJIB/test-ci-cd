@@ -2,7 +2,8 @@ name: Condition Workflow
 
 on:
   push: 
-    paths: "backend/**"
+    paths: 
+      - "backend/**"
 
 jobs:
   condition-job:
