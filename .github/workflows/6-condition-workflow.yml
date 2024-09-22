@@ -6,7 +6,7 @@ on:
       - "backend/**"
 
 jobs:
-  condition-job:
+  condition-workflow:
     runs-on: ubuntu-latest
     steps:
       - name: Build Backend Image
